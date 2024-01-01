@@ -76,6 +76,12 @@
     <Compile Include="ESSAI.Designer.cs">
       <DependentUpon>ESSAI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo.Designer.cs">
+      <DependentUpon>Fo.cs</DependentUpon>
+    </Compile>
     <Compile Include="hala_essai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ESSAI.resx">
       <DependentUpon>ESSAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo.resx">
+      <DependentUpon>Fo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hala_essai.resx">
       <DependentUpon>hala_essai.cs</DependentUpon>
