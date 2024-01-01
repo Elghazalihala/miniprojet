@@ -90,6 +90,12 @@
     <Compile Include="suprimer_adherent.Designer.cs">
       <DependentUpon>suprimer_adherent.cs</DependentUpon>
     </Compile>
+    <Compile Include="ty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ty.Designer.cs">
+      <DependentUpon>ty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Voir_adherent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="suprimer_adherent.resx">
       <DependentUpon>suprimer_adherent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ty.resx">
+      <DependentUpon>ty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Voir_adherent.resx">
       <DependentUpon>Voir_adherent.cs</DependentUpon>
